@@ -1,0 +1,64 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    text-align: center;
+  }
+  
+  header h1 {
+    margin: 0;
+  }
+  
+  nav a {
+    color: #fff;
+    margin: 0 10px;
+    text-decoration: none;
+
+  }
+  nav :hover {
+    color: black;
+    transition: 0.3s;
+    text-decoration: underline;
+    color: rgb(180, 180, 180);
+  }
+  
+  section {
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  #projects .project {
+    background: #f4f4f4;
+    color: black;
+    margin: 1rem 0;
+    padding: 1rem;
+    border-radius: 5px;
+  }
+  #projects .project:hover{
+    background-color: rgb(180, 180, 180);
+    transition: 0.3s;
+
+  }
+
+  
+  footer {
+    background: #333;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 1rem 0;
+    position: bottom;
+    width: 100%;
+    bottom: 0;
+  }
+  .contact :hover{
+    color: crimson;
+    transition: 0.3s;
+
+  }
